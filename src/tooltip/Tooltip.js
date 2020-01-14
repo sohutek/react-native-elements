@@ -163,7 +163,7 @@ class Tooltip extends React.PureComponent {
             yOffset:
               isIOS || skipAndroidStatusBar
                 ? pageOffsetY
-                : pageOffsetY - StatusBar.currentHeight,
+                : pageOffsetY/* - StatusBar.currentHeight*/,
             elementWidth: width,
             elementHeight: height,
           });
